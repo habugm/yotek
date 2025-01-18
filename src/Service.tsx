@@ -1,77 +1,106 @@
-export function About(){
+export function Service(){
     return(
         <div>
-            <div className="about wow fadeInUp" data-wow-delay="0.1s">
+            <div className="service">
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-5 col-md-6">
-                            <div className="about-img">
-                                <img src="/theme/img/about.jpg" alt="Image" />
-                            </div>
-                        </div>
-                        <div className="col-lg-7 col-md-6">
-                            <div className="section-header text-left">
-                                <p>Welcome to Yotek Construction PLC</p>
-                                <h2>20 Years Experience</h2>
-                            </div>
-                            <div className="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
-                                <a className="btn" href="">Learn More</a>
-                            </div>
-                        </div>
+                    <div className="section-header text-center">
+                        <p>Our Services</p>
+                        <h2>We Provide Services</h2>
                     </div>
-                </div>
-            </div>
-            
-            <div className="fact">
-                <div className="container-fluid">
-                    <div className="row counters">
-                        <div className="col-md-6 fact-left wow slideInLeft">
-                            <div className="row">
-                                <div className="col-6">
-                                    <div className="fact-icon">
-                                        <i className="flaticon-worker"></i>
-                                    </div>
-                                    <div className="fact-text">
-                                        <h2 data-toggle="counter-up">109</h2>
-                                        <p>Expert Workers</p>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div className="service-item">
+                                <div className="service-img">
+                                    <img src="/theme/img/service-1.jpg" alt="Image" />
+                                    <div className="service-overlay">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                        </p>
                                     </div>
                                 </div>
-                                <div className="col-6">
-                                    <div className="fact-icon">
-                                        <i className="flaticon-building"></i>
-                                    </div>
-                                    <div className="fact-text">
-                                        <h2 data-toggle="counter-up">485</h2>
-                                        <p>Happy Clients</p>
-                                    </div>
+                                <div className="service-text">
+                                    <h3>Building Construction</h3>
+                                    <a className="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 fact-right wow slideInRight">
-                            <div className="row">
-                                <div className="col-6">
-                                    <div className="fact-icon">
-                                        <i className="flaticon-address"></i>
-                                    </div>
-                                    <div className="fact-text">
-                                        <h2 data-toggle="counter-up">789</h2>
-                                        <p>Completed Projects</p>
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div className="service-item">
+                                <div className="service-img">
+                                    <img src="/theme/img/service-2.jpg" alt="Image" />
+                                    <div className="service-overlay">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                        </p>
                                     </div>
                                 </div>
-                                <div className="col-6">
-                                    <div className="fact-icon">
-                                        <i className="flaticon-crane"></i>
+                                <div className="service-text">
+                                    <h3>House Renovation</h3>
+                                    <a className="btn" href="img/service-2.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div className="service-item">
+                                <div className="service-img">
+                                    <img src="/theme/img/service-3.jpg" alt="Image" />
+                                    <div className="service-overlay">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                        </p>
                                     </div>
-                                    <div className="fact-text">
-                                        <h2 data-toggle="counter-up">890</h2>
-                                        <p>Running Projects</p>
+                                </div>
+                                <div className="service-text">
+                                    <h3>Architecture Design</h3>
+                                    <a className="btn" href="img/service-3.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div className="service-item">
+                                <div className="service-img">
+                                    <img src="/theme/img/service-4.jpg" alt="Image" />
+                                    <div className="service-overlay">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                        </p>
                                     </div>
+                                </div>
+                                <div className="service-text">
+                                    <h3>Interior Design</h3>
+                                    <a className="btn" href="img/service-4.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div className="service-item">
+                                <div className="service-img">
+                                    <img src="/theme/img/service-5.jpg" alt="Image" />
+                                    <div className="service-overlay">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="service-text">
+                                    <h3>Fixing & Support</h3>
+                                    <a className="btn" href="img/service-5.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div className="service-item">
+                                <div className="service-img">
+                                    <img src="/theme/img/service-6.jpg" alt="Image" />
+                                    <div className="service-overlay">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="service-text">
+                                    <h3>Painting</h3>
+                                    <a className="btn" href="img/service-6.jpg" data-lightbox="service">+</a>
                                 </div>
                             </div>
                         </div>

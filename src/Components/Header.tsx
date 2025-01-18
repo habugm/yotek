@@ -8,7 +8,7 @@ export function Header(){
                         <div className="col-lg-4 col-md-12">
                             <div className="logo">
                                 <a href="/">
-                                    <h1>Yotek</h1>
+                                    <h1>YOTEK</h1>
                                     
                                 </a>
                             </div>
